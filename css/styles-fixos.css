@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Puppies+Play&family=Tangerine:wght@400;700&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--texto-principal);
+}
+
+/* Variaveis */
+
+:root {
+    /* COR */
+    --bg-principal: #eae7e4;
+    --bg-secundario: #AABEDC;
+    --bg-detalhe: #E1E1E1;
+    --bg-detalhe-suave: #e1e1e1dc;
+    --texto-principal: #1C1C1C;
+    --texto-secundario: #E1E1E1;
+    --texto-suave: #666666;
+    --destaque-primario: #FF6F61;
+    --borda-suave: #D0D0D0;
+    --hover-acao: #3183ff;
+    /* TAMANHO */
+    --padding-divs: 1rem;
+    --padding-botao: 0.5rem;
+    --font-logo: 4rem;
+    --font-login: 3rem;
+    --font-destaque: 2rem;
+    --font-destaque-cursivo: 3rem;
+    --font-media: 1rem;
+    --tamanho-div: 17rem;
+}
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-divs);
+    background-color: var(--bg-secundario);
+    position: sticky;
+    top: -15px;
+}
+
+header h1 {
+    font-family: "Puppies Play", cursive;
+    font-size: var(--font-logo);
+    color: var(--texto-principal);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+header li a {
+    color: var(--texto-principal);
+    font-size: var(--font-destaque);
+    transition-duration: 0.3s;
+}
+
+header li a:hover {
+    color: var(--texto-suave);
+    border-bottom: 2px solid var(--texto-suave);
+}
+
+.login {
+    border-radius: 50%;
+    height: var(--font-login);
+    width: var(--font-login);
+    color: var(--texto-principal);
+    border: 3px solid var(--texto-principal);
+    padding: 0.5rem;
+    font-size: var(--font-login);
+    transition-duration: 0.3s;
+}
+
+.login:hover {
+    background-color: var(--hover-acao);
+    color: var(--texto-suave);
+    border: 3px solid var(--texto-suave);
+}
+
+/* Rodape */
+

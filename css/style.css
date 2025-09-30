@@ -1,0 +1,62 @@
+/* HERO */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../imagens/fundo-inicio.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: var(--tamanho-div);
+}
+
+.hero h2 {
+    font-size: var(--font-destaque-cursivo);
+    width: 300px;
+    text-align: center;
+    font-family: "Ephesis", cursive;
+
+}
+
+.hero-direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    background-color: var(--bg-detalhe-suave);
+    padding: var(--padding-divs);
+    border-radius: 20px;
+}
+
+.hero button {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--bg-secundario);
+    padding: var(--padding-botao);
+    cursor: pointer;
+    font-size: var(--font-media);
+    border: 2px solid var(--bg-secundario);
+    transition-duration: 0.3s;
+}
+
+.hero button:hover {
+    background-color: var(--hover-acao);
+    border: 2px solid var(--texto-principal);
+    scale: 1.2;
+}
+
+/* SOBRE */
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: var(--padding-divs);
+    background-color: var(--bg-principal);
+}
