@@ -28,7 +28,7 @@
         <nav>
             <ul>
                 <li><a href="">Especialidades</a></li>
-                <li><a href="">Diario de Bordo</a></li>
+                <li><a href="">Conheça-nos</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
         </nav>
@@ -48,25 +48,77 @@
         <!-- Sobre -->
         <section class="sobre">
             <h2>A Jornada da Nutrição</h2>
-            <p>
-                Em um mundo repleto de dietas perigosas e hábitos alimentares afundando em mares turbulentos, nasceu a
-                Clínica NutriPirata. Uma tripulação de especialistas partiu com um mapa único: levar cada paciente rumo
-                ao equilíbrio e ao bem-estar verdadeiro.
-
-                Nossos nutricionistas são navegadores experientes, guiando você por águas seguras e saborosas. A cada
-                consulta, uma nova ilha de descobertas. A cada prato, um passo mais próximo do seu tesouro pessoal: a
-                saúde plena.
-
-                Embarque conosco nesta jornada de transformação!
-            </p>
-            <button>Conheça Mais</button>
+            <div class="sobre-texto-imagem">
+                <div class="sobre-paragrafos">
+                    <p>Tudo começou com a paixão pela nutrição e o desejo de ajudar pessoas a terem uma vida mais saudável e equilibrada. Nosso site nasceu para ser um espaço acessível, onde você encontra orientação profissional, planos personalizados e dicas práticas para transformar seus hábitos alimentares.</p>
+                    <p>Acreditamos que a nutrição é a base do bem-estar e que pequenas mudanças podem fazer uma grande diferença na sua saúde. Por isso, criamos serviços pensados para acompanhar cada etapa da sua jornada, respeitando seu ritmo e suas necessidades.</p>
+                    <p>Aqui, você não está sozinho(a): estamos juntos para apoiar, motivar e celebrar suas conquistas rumo a uma vida mais leve e feliz.</p>
+                    <button>Conheça Mais</button>
+                </div>
+                <img src="./imagens/nutricionista.jpg" alt="Imagem de uma mulher asiatica segurando um">
+            </div>
         </section>
+
+        <!-- Pacotes -->
+        <section class="pacotes">
+            <h2>Conheça Nossos Pacotes</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="./imagens/nutricionista-explicando-comida.jpg" alt="imagem de uma pessoa apontando para uma folha que contém frutas">
+                    <h2>Essencial Saúde</h2>
+                    <p>Ideal para quem busca começar uma reeducação alimentar com acompanhamento básico. Inclui avaliação nutricional inicial, plano alimentar personalizado e suporte via e-mail.</p>
+                </div>
+                <div class="card">
+                    <img src="./imagens/marmitas.png" alt="Imagem de algumas marmitas">
+                    <h2>Equilíbrio & Evolução</h2>
+                    <p>Acompanhamento contínuo para quem deseja manter disciplina e ver resultados duradouros. Inclui plano alimentar dinâmico, encontros quinzenais e suporte via WhatsApp.</p>
+                </div>
+                <div class="card">
+                    <img src="./imagens/medindo-cintura.jpg" alt="imagem de uma pessoa medindo a cintura de outra pessoa">
+                    <h2>Transformação Completa</h2>
+                    <p>Programa premium para quem busca uma mudança completa de estilo de vida com acompanhamento intensivo. Consultas semanais, plano alimentar adaptativo e suporte total.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos -->
+         <section class="depoimentos">
+             <h2>Depoimentos</h2>
+             <div class="depoimentos-conteudo">
+                <i class="fa-solid fa-arrow-left"></i>
+                 <div class="depoimentos-conteudo-texto">
+                    <p>Nunca imaginei que mudar minha alimentação pudesse ser tão simples e prazeroso. Com o acompanhamento da nutricionista, consegui mais energia e perdi peso de forma saudável. Sou muito grata!</p>
+                    <h3>Paciente Ana Silva</h3>
+                 </div>
+                 <i class="fa-solid fa-arrow-right"></i>
+             </div>
+             <div>
+                <input type="radio" class="depoimentos-selecao" name="comentario" id="" checked>
+                <input type="radio" class="depoimentos-selecao" name="comentario" id="">
+                <input type="radio" class="depoimentos-selecao" name="comentario" id="">
+                <input type="radio" class="depoimentos-selecao" name="comentario" id="">
+                <input type="radio" class="depoimentos-selecao" name="comentario" id="">
+                <input type="radio" class="depoimentos-selecao" name="comentario" id="">
+             </div>
+         </section>
     </main>
 
     <footer>
 
     </footer>
 
+    <!-- Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
 
 </html>

@@ -15,25 +15,30 @@
 
 :root {
     /* COR */
-    --bg-principal: #eae7e4;
-    --bg-secundario: #AABEDC;
-    --bg-detalhe: #E1E1E1;
-    --bg-detalhe-suave: #e1e1e1dc;
-    --texto-principal: #1C1C1C;
-    --texto-secundario: #E1E1E1;
-    --texto-suave: #666666;
-    --destaque-primario: #FF6F61;
-    --borda-suave: #D0D0D0;
-    --hover-acao: #3183ff;
+    --bg-principal: #f0f3ec;
+    --bg-secundario: #e2e8d9;
+    --bg-detalhe: #b9d7c8;
+    --bg-detalhe-suave: #f7f1e7;
+    --texto-principal: #4a6a54;
+    --texto-secundario: #7c9a82;
+    --texto-suave: #a7bfa8;
+    --destaque-primario: #f3c78a;
+    --borda-suave: #d4d9c6;
+    --hover-acao: #e7b05b;
+    --sombra-card: #11381e;
     /* TAMANHO */
-    --padding-divs: 1rem;
+    --padding-divs: 1.5rem;
     --padding-botao: 0.5rem;
     --font-logo: 4rem;
     --font-login: 3rem;
     --font-destaque: 2rem;
     --font-destaque-cursivo: 3rem;
     --font-media: 1rem;
+    --titulos: 1.5rem;
+    --paragrafos: 1.2rem;
     --tamanho-div: 17rem;
+    --tamanho-card: 30%;
+    --tamanho-imagem-sobre: 15rem;
 }
 
 /* Cabeçalho */
@@ -46,6 +51,7 @@ header {
     background-color: var(--bg-secundario);
     position: sticky;
     top: -15px;
+    z-index: 999;
 }
 
 header h1 {
