@@ -113,7 +113,7 @@
     background-color: var(--bg-principal);
 }
 
-.cards{
+.cards-container{
     display: flex;
     align-items: center;
     justify-content: space-around;

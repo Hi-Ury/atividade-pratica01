@@ -1,0 +1,66 @@
+/* Geral */
+
+h2 {
+    color: var(--texto-destaque);
+    font-size: var(--font-destaque);;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/fundo-sobre-nos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    height: var(--tamanho-div);
+}
+
+.hero-texto {
+    background-color: var(--bg-detalhe-suave);
+    text-align: center;
+    padding: var(--padding-divs);
+    border-radius: 20px;
+    line-height: 2rem;
+}
+
+.historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: var(--padding-divs);
+}
+
+.historia img {
+    width: var(--tamanho-imagem-sobre);
+    border-radius: 10px;
+}
+
+.historia-texto {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.historia-texto p {
+    width: 60vw;
+}
+
+/* Filosofia */
+
+.filosofia {
+    padding: var(--padding-divs);
+}
+
+.filosofia-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
