@@ -21,6 +21,7 @@
     --bg-detalhe-suave: #f7f1e7;
     --texto-principal: #4a6a54;
     --texto-secundario: #7c9a82;
+    --texto-destaque: #d8942d;
     --texto-suave: #a7bfa8;
     --destaque-primario: #f3c78a;
     --borda-suave: #d4d9c6;
@@ -52,9 +53,10 @@ header {
     position: sticky;
     top: -15px;
     z-index: 999;
+    box-shadow: 0px -1px 10px var(--sombra-card);
 }
 
-header h1 {
+.logo {
     font-family: "Puppies Play", cursive;
     font-size: var(--font-logo);
     color: var(--texto-principal);
@@ -97,3 +99,31 @@ header li a:hover {
 
 /* Rodape */
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: var(--padding-divs);
+    box-shadow: 0px 1px 10px var(--sombra-card);
+}
+
+.footer-expecificacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.footer-especificacoes-funcionamento h2, .footer-especificacoes-contato h2 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    color: var(--texto-destaque);
+}
+
+.footer-especificacoes-contato-social, .footer-especificacoes-contato-direto {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}

@@ -164,6 +164,10 @@
     font-size: var(--titulos);
 }
 
+.depoimentos h3, .depoimentos h2 {
+    color: var(--texto-destaque);
+}
+
 .depoimentos-conteudo {
     display: flex;
     align-items: center;
@@ -187,11 +191,12 @@
 }
 
 .depoimentos-selecao {
-    background-color: black;
-    border-color: black;
+    background-color: var(--hover-acao);
     cursor: pointer;
 }
 
 .depoimentos-selecao:checked {
-    background-color: red;
+    background-color: var(--hover-acao);
+
 }
+
