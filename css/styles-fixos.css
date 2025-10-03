@@ -80,6 +80,48 @@ header li a:hover {
     border-bottom: 2px solid var(--texto-suave);
 }
 
+.menu-haburguer {
+    display: none;
+}
+
+.menu-haburguer i {
+    cursor: pointer;
+    font-size: var(--font-destaque);
+    transition-duration: .3s;
+}
+
+
+.menu-haburguer i:hover {
+    color: var(--hover-acao);
+}
+
+.menu-haburguer-informacao {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 3rem;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 100%;
+    top: 0;
+    right: 0;
+    background-color: var(--bg-detalhe);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.menu-haburguer-informacao ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    height: 80vh;
+}
+
 /* main */
 
 main {

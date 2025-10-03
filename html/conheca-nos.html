@@ -18,18 +18,32 @@
 <body>
 
     <!-- header -->
-    <header>
-        <a href="../index.html">
+        <header>
+        <a href="./index.html">
             <h1 class="logo">PiraNutri</h1>
         </a>
 
-        <nav>
+        <nav class="menu-normal">
             <ul>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="./especialidades.html">Especialidades</a></li>
                 <li><a href="./conheca-nos.html">Conheça-nos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
+
+        <div class="menu-haburguer">
+            <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
+            <nav class="menu-haburguer-informacao" id="conteudo">
+                <i class="fa-solid fa-arrow-left" onclick="FucharMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./especialidades.html">Especialidades</a></li>
+                    <li><a href="./conheca-nos.html">Conheça-nos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+        </nav>           
+        </div>
     </header>
 
     <main>
@@ -159,5 +173,8 @@
       <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
+
+      <!-- Menu Habuerguer -->
+       <script src="../js/menu.js"></script>
 </body>
 </html>

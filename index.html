@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles-fixos.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo-home.css">
 
     <!-- swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
@@ -30,13 +31,27 @@
             <h1 class="logo">PiraNutri</h1>
         </a>
 
-        <nav>
+        <nav class="menu-normal">
             <ul>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./html/especialidades.html">Especialidades</a></li>
                 <li><a href="./html/conheca-nos.html">Conheça-nos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
+
+        <div class="menu-haburguer">
+            <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
+            <nav class="menu-haburguer-informacao" id="conteudo">
+                <i class="fa-solid fa-arrow-left" onclick="FucharMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./html/especialidades.html">Especialidades</a></li>
+                    <li><a href="./html/conheca-nos.html">Conheça-nos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+        </nav>           
+        </div>
     </header>
 
     <main>
@@ -77,20 +92,20 @@
                 <div class="card">
                     <img src="./imagens/nutricionista-explicando-comida.jpg"
                         alt="imagem de uma pessoa apontando para uma folha que contém frutas">
-                    <h2>Essencial Saúde</h2>
+                    <h3>Essencial Saúde</h3>
                     <p>Ideal para quem busca começar uma reeducação alimentar com acompanhamento básico. Inclui
                         avaliação nutricional inicial, plano alimentar personalizado e suporte via e-mail.</p>
                 </div>
                 <div class="card">
                     <img src="./imagens/marmitas.png" alt="Imagem de algumas marmitas">
-                    <h2>Equilíbrio & Evolução</h2>
+                    <h3>Equilíbrio & Evolução</h3>
                     <p>Acompanhamento contínuo para quem deseja manter disciplina e ver resultados duradouros. Inclui
                         plano alimentar dinâmico, encontros quinzenais e suporte via WhatsApp.</p>
                 </div>
                 <div class="card">
                     <img src="./imagens/medindo-cintura.jpg"
                         alt="imagem de uma pessoa medindo a cintura de outra pessoa">
-                    <h2>Transformação Completa</h2>
+                    <h3>Transformação Completa</h3>
                     <p>Programa premium para quem busca uma mudança completa de estilo de vida com acompanhamento
                         intensivo. Consultas semanais, plano alimentar adaptativo e suporte total.</p>
                 </div>
@@ -206,6 +221,9 @@
     <!-- swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+
+    <!-- menu -->
+     <script src="./js/menu.js"></script>
 </body>
 
 </html>

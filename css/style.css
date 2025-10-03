@@ -1,3 +1,7 @@
+
+:root {
+    --swiper-navigation-top-offset: 7rem;
+}
 /* HERO */
 
 .hero {
@@ -113,6 +117,14 @@
     background-color: var(--bg-principal);
 }
 
+.pacotes h2 {
+    font-size: var(--font-destaque);
+}
+
+.pacotes h3 {
+    font-size: var(--titulos);
+}
+
 .cards-container{
     display: flex;
     align-items: center;
@@ -169,10 +181,6 @@
 }
 
 .swiper {
-    width: 90vw;
-    height: 150px;
-}
-
-.swiper-pagination {
-    color: red;
+    width: 95vw;
+    height: 10rem;
 }

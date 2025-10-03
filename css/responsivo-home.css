@@ -1,3 +1,80 @@
-@media screen  {
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (max-width: 992px) {
+
+    :root{
+        --tamanho-card: 80vw;
+        --swiper-navigation-top-offset: 10rem;
+    }
+
+    header li a {
+        font-size: 1.5rem;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
     
+    .swiper {
+        height: 12rem;
+    }
 }
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    :root {
+        --tamanho-div: 20rem;
+        --swiper-navigation-top-offset: 17rem;
+    }
+    /* menu */
+    .menu-normal {
+        display: none;
+    }
+    .menu-haburguer {
+        display: block;
+    }
+
+    /* hero */
+    .hero {
+        flex-direction: column;
+    }
+    
+    .hero h2 {
+        background-color: var(--bg-detalhe-suave);
+        border-radius: 20px;
+    }
+
+    .hero-direita {
+        width: 80vw;
+    }
+
+    /* sobre */
+
+    .sobre-paragrafos{
+        width: 100%;
+    }
+
+    .sobre-texto-imagem {
+        flex-direction: column;
+    }
+
+    /* swiper */
+    .swiper {
+        height: 20rem;
+    }
+
+    /* footer */
+    footer{
+        text-align: center;
+    }
+    .footer-expecificacoes {
+        flex-direction: column;
+        gap: 0;
+    }
+ }
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {}
