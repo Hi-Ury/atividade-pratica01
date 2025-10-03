@@ -168,35 +168,11 @@
     color: var(--texto-destaque);
 }
 
-.depoimentos-conteudo {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.swiper {
+    width: 90vw;
+    height: 150px;
 }
 
-.depoimentos-conteudo i:hover {
-    color: var(--hover-acao);
-    cursor: pointer;
-    transition-duration: 0.3s;
+.swiper-pagination {
+    color: red;
 }
-
-.depoimentos-conteudo-texto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 15px;
-    width: 80%;
-    font-size: var(--paragrafos);
-}
-
-.depoimentos-selecao {
-    background-color: var(--hover-acao);
-    cursor: pointer;
-}
-
-.depoimentos-selecao:checked {
-    background-color: var(--hover-acao);
-
-}
-

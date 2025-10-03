@@ -58,9 +58,85 @@ h2 {
     padding: var(--padding-divs);
 }
 
+.filosofia-titulo {
+    padding-left: var(--padding-divs);
+}
+
 .filosofia-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-top: var(--padding-divs);
 }
 
+.filosofia-container-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    width: 25vw;
+    height: 8rem;
+    border: 1px solid var(--borda-suave);
+    padding: var(--padding-divs);
+}
+
+/* Equipe */
+
+.equipe {
+    padding: var(--padding-divs);   
+}
+
+.equipe h2 {
+    padding-left: var(--padding-divs);
+}
+
+.equeipe-profisionais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: var(--padding-divs);
+}
+
+.equeipe-profisionais img {
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+}
+
+.equipe-proficionais-pessoa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* chamada para ação */
+
+.chamada {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: var(--padding-divs);
+    background-color: var(--bg-detalhe);   
+}
+
+.chamada button {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--bg-secundario);
+    padding: var(--padding-botao);
+    cursor: pointer;
+    font-size: var(--font-media);
+    border: 2px solid var(--bg-secundario);
+    transition-duration: 0.3s;
+}
+
+.chamada button:hover {
+    background-color: var(--hover-acao);
+    border: 2px solid var(--texto-principal);
+    scale: 1.2;
+}

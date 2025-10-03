@@ -80,21 +80,10 @@ header li a:hover {
     border-bottom: 2px solid var(--texto-suave);
 }
 
-.login {
-    border-radius: 50%;
-    height: var(--font-login);
-    width: var(--font-login);
-    color: var(--texto-principal);
-    border: 3px solid var(--texto-principal);
-    padding: 0.5rem;
-    font-size: var(--font-login);
-    transition-duration: 0.3s;
-}
+/* main */
 
-.login:hover {
-    background-color: var(--hover-acao);
-    color: var(--texto-suave);
-    border: 3px solid var(--texto-suave);
+main {
+    background-color: var(--bg-principal);
 }
 
 /* Rodape */
