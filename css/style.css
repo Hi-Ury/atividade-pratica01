@@ -87,6 +87,7 @@
 
 .sobre img {
     width: var(--tamanho-imagem-sobre);
+    border-radius: 20px;
 }
 .sobre button {
     border-radius: 5px;
@@ -155,6 +156,23 @@
 
 .card p {
     width: 90%;
+}
+
+.card button {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--bg-secundario);
+    padding: var(--padding-botao);
+    cursor: pointer;
+    font-size: var(--font-media);
+    border: 2px solid var(--bg-secundario);
+    transition-duration: 0.3s;
+}
+
+.card button:hover {
+    background-color: var(--hover-acao);
+    border: 2px solid var(--texto-principal);
+    scale: 1.2;
 }
 
 .card:hover {

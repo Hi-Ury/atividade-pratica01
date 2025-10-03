@@ -1,32 +1,30 @@
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media only screen and (max-width: 992px) {
-
     :root{
         --tamanho-card: 80vw;
-        --swiper-navigation-top-offset: 10rem;
     }
 
     header li a {
         font-size: 1.5rem;
     }
 
+    .separacao {
+        width: 40%;
+    }
+
     .cards-container {
         flex-direction: column;
         gap: 1.5rem;
-    }
-    
-    .swiper {
-        height: 12rem;
     }
 }
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
-    :root {
+     :root {
         --tamanho-div: 20rem;
-        --swiper-navigation-top-offset: 17rem;
-    }
-    /* menu */
+     }
+
+      /* menu */
     .menu-normal {
         display: none;
     }
@@ -35,35 +33,22 @@
     }
 
     /* hero */
-    .hero {
-        flex-direction: column;
-    }
-    
-    .hero h2 {
-        background-color: var(--bg-detalhe-suave);
-        border-radius: 20px;
-    }
-
-    .hero-direita {
+    .hero-texto {
         width: 80vw;
     }
 
-    /* sobre */
-
-    .sobre-paragrafos{
-        width: 100%;
+    /* cards */
+    .separacao {
+        width: 35%;
+        height: 14.5rem;
+        font-size: 0.9rem;
     }
 
-    .sobre-texto-imagem {
-        flex-direction: column;
+    .card {
+        width: 90vw;
     }
 
-    /* swiper */
-    .swiper {
-        height: 20rem;
-    }
-
-    /* footer */
+     /* footer */
     footer{
         text-align: center;
     }
@@ -71,4 +56,4 @@
         flex-direction: column;
         gap: 0;
     }
- }
+}
